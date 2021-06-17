@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="199816123_926185981557953_7551412434189099630_n.jpg" />
+    <None Remove="Image\199816123_926185981557953_7551412434189099630_n.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="199816123_926185981557953_7551412434189099630_n.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\199816123_926185981557953_7551412434189099630_n.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

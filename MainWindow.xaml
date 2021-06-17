@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="659" Width="638">
+    <Grid HorizontalAlignment="Left" Width="648" Margin="0,0,0,4">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="134*"/>
+            <RowDefinition Height="505*"/>
+        </Grid.RowDefinitions>
+        <Image HorizontalAlignment="Left" Height="649" Margin="-9,-2,0,0" VerticalAlignment="Top" Width="649" Source="/199816123_926185981557953_7551412434189099630_n.jpg" Grid.RowSpan="2"/>
+        <Label Content="Aku mau buka Visual Studio ya" HorizontalAlignment="Left" Margin="16,133,0,0" VerticalAlignment="Top" Height="74" Width="313" Foreground="White" FontSize="20" Grid.Row="1"/>
+        <Label Content="Buat Ngodingkan?" HorizontalAlignment="Left" Margin="390,142,0,0" VerticalAlignment="Top" Height="49" Width="288" FontSize="20" FontWeight="Normal" FontStretch="SemiCondensed" BorderThickness="2,0,0,0" Background="{x:Null}" Foreground="White" Grid.Row="1"/>
+        <Label Content="Buat Ngodingkan?" HorizontalAlignment="Left" Margin="381,450,0,0" VerticalAlignment="Top" Height="49" Width="288" FontSize="20" FontWeight="Normal" FontStretch="SemiCondensed" BorderThickness="2,0,0,0" Background="{x:Null}" Foreground="White" Grid.Row="1"/>
+    </Grid>
+</Window>
